@@ -1,0 +1,96 @@
+/* General Styles */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fffaf5;
+    color: #5b3a29;
+}
+
+/* Header */
+
+header {
+    background-color: #d9c3e6;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Navigation */
+
+nav {
+    background-color: #8b6f8f;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #a98ab7;
+}
+
+/* Hero Image */
+
+.hero img {
+    width: 100%;
+    max-height: 650px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Welcome Section */
+
+.welcome {
+    text-align: center;
+    padding: 40px;
+}
+
+.welcome h2 {
+    color: #8b6f8f;
+}
+
+/* Product Cards */
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 20px 40px 50px;
+}
+
+.card {
+    background: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.15);
+    text-align: center;
+}
+
+.card h3 {
+    color: #8b6f8f;
+}
+
+/* Footer */
+
+footer {
+    background-color: #8b6f8f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
